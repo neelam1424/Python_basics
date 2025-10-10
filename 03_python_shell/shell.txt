@@ -1,0 +1,24 @@
+list files-> ls
+
+open python shell -> python
+to come out of shell-> ctrl+Z or ctrl + C 
+
+shell-> does not 
+python is computational
+
+commands:-
+import os
+os.getcwd()
+
+import sys
+sys.platform
+
+from importlib import reload
+
+
+
+loop:-
+
+for c in "chai":
+    print(c)
+

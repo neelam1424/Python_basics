@@ -1,0 +1,29 @@
+
+
+1)
+In python everything is object
+ -it create everything first as object
+ -then make memory reference
+ -it creates reference of every value
+ -Reference is always immutable
+
+ >>> username = "Neelam" // username is connected to reference of neelam
+>>> username
+'Neelam'
+>>> username = "More"
+>>> username
+'More'
+
+2) 
+>>> x = 10 reference created of value 10
+>>> y = x  points to reference 10
+>>> x
+10
+>>> y
+10
+>>> x= 15 x is now pointing to reference 15
+>>> y  this is still pointing reference 10
+10
+>>> 
+
+

@@ -1,0 +1,40 @@
+Python is interpreted language
+
+python inner working
+
+* we need to tell interpretor and which script to learn
+     python chai.py
+       |      |
+ interpretor  script 
+
+interpret(script)-> generate Byte code=> install python VM
+
+
+step 1:- Compile to Byte code
+                       |
+                       low level code & platform independent
+->Byte code runs faster
+
+.pyc -> Compiled python (frozen Binaries)
+
+__pycache__ (for internal use only)
+
+Source Change & Python Version
+
+hello_chai.cpython-312.pyc
+->Works only for imported files
+->Not for top level files
+
+
+
+-----PVM-----
+-> code loop to iterate byte code
+-> Also known as "Run time Engine"
+-> Also known as "python interpreter"
+
+Byte code is NOT machine code
+-> Python specific interpretation
+->cpython,jython,IronPython,Stackless,PyPy
+    |
+    standard implementation
+
