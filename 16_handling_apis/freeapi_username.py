@@ -3,7 +3,7 @@ import requests
 def fectch_random_freeapi():
     url=""
     response=requests.get(url)
-    response.json()
+    data=response.json()
 
     if data["sucess"] and "data" in data
         user_data=data["data"]
