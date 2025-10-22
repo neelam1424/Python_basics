@@ -5,7 +5,7 @@ def fectch_random_freeapi():
     response=requests.get(url)
     data=response.json()
 
-    if data["sucess"] and "data" in data
+    if data["sucess"] and "data" in data:
         user_data=data["data"]
         username=user_data["login"]["username"]
         country=user_data["location"]["country"]
